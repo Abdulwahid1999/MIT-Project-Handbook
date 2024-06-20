@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HandbookSchool.Views.InstructionalSupportViews.LibrarySystemViews"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:vm="clr-namespace:HandbookSchool.ViewModels"
+             xmlns:models="clr-namespace:HandbookSchool.Models"
+             x:DataType="vm:InstructionalSupportViewModel"
+             Shell.NavBarIsVisible="False"
+             Title="LibrarySystemViews">
+
+    <Grid>
+        <ScrollView>
+            <VerticalStackLayout>
+                <CollectionView ItemsSource="{Binding InstructionModel}">
+                   <CollectionView.ItemTemplate>
+                   <DataTemplate x:DataType="models:InstructionalSupportModel">
+                    <VerticalStackLayout Spacing="10" Padding="20">
+
+
+                                <Border WidthRequest="100"
+                                        HeightRequest="100"
+                                        StrokeShape="RoundRectangle 30"
+                                        >
+                                    <Border.Shadow>
+                                        <Shadow Brush="DeepSkyBlue"
+                                                Offset="20, 20"
+                                                Opacity="8"/>
+                                    </Border.Shadow>
+                                    <Image Source="knowledge2.png"
+                                           HeightRequest="80"
+                                           WidthRequest="70"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"/>
+                                </Border>
+                                <Border WidthRequest="180" HeightRequest="35"
+                                        BackgroundColor="Cornsilk" 
+                                        StrokeShape="RoundRectangle 10"
+                                        Stroke="gray" StrokeThickness="2"
+                                        Margin="15">
+                                    <Label Text="II. Library System"
+                                           FontSize="19"
+                                           TextColor="Black"
+                                           FontAttributes="Bold"
+                                           FontFamily="Robot"
+                                           HorizontalOptions="Center"
+                                           />
+                                </Border>
+
+                                <!--<-LIBRARY SYSTEM->-->
+
+                    <!--<Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding LibrarySystem}"/>-->
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   LineHeight="1.5"
+                                   Text="{Binding LibrarySystemDescription}"/>
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding LibrarySystemList}"/>
+
+                    <!--GENERAL RULES-->
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding GeneralRules}"/>
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding GeneralRulesDescription}"/>
+
+                    <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding GeneralRulesList1}"/>
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding GeneralRulesList2}"/>
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding GeneralRulesList3}"/>
+
+                    <!--<-LIBRARY SYSTEM->-->
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding IdentificationCards}"/>
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding IdentificationDescription}"/>
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding IdentificationDescription1}"/>
+
+                    <!--<-CONTROL PROCEDURES->-->
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding ControlPrecedures}"/>
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding ControlPreceduresDescription}"/>
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding ControlPrecedures1}"/>
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding ControlPrecedures2}"/>
+
+
+                    <!--<-Rule of Borrowing of Materials->-->
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding  RulesBorrowing}"/>
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding RulesDescription}"/>
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding  RulesList}"/>
+
+                    <!--<-Rule of Borrowing of Materials->-->
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding  RulesBorrowing}"/>
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   
+                                   LineHeight="1.5"
+                                   Text="{Binding RulesDescription}"/>
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   
+                                   LineHeight="1.5"
+                                   Text="{Binding  RulesList}"/>
+
+                    <!--<-Maximum number of books that may be borrowed at on time: ->-->
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding   Maximum}"/>
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   Margin="6"
+                                   LineHeight="1.5"
+                                   Text="{Binding MaximumDescription }"/>
+
+                    <!--Fines and other Penalties->-->
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding  Penalties}"/>
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding PenaltiesDescription}"/>
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding PenaltiesDescription1}"/>
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding PenaltiesDescription2}"/>
+
+                    <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding PenaltiesDescription5}"/>
+
+                </VerticalStackLayout>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+
+    </VerticalStackLayout>
+    </ScrollView>
+
+    <!--<Border StrokeThickness="0"
+                x:Name="bottomBox"
+                BackgroundColor="LimeGreen"
+                Margin="-1"
+                VerticalOptions="End"
+                HeightRequest="150"
+                Padding="15"
+                StrokeShape="RoundRectangle, 30, 30, 0, 0">
+            <Border.Shadow>
+                <Shadow Brush="green"
+                        Radius="100"/>
+            </Border.Shadow>
+
+            <Image Source="mitremove.png"/>
+
+        </Border>-->
+    <ImageButton Source="{OnPlatform Android='rightarrows.png', Default='left.png'}"
+                     VerticalOptions="Start"
+                     HorizontalOptions="Start"
+                     HeightRequest="40"
+                     WidthRequest="40"
+                     Margin="15"
+                     RotationY="{OnPlatform Android=180, Default=0}"
+                     Clicked="ImageButton_Clicked">
+
+        <ImageButton.Behaviors>
+            <toolkit:IconTintColorBehavior TintColor="Black"/>
+        </ImageButton.Behaviors>
+    </ImageButton>
+  </Grid>
+</ContentPage>

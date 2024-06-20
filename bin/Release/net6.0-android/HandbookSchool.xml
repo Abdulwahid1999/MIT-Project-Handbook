@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HandbookSchool</name>
+    </assembly>
+    <members>
+        <member name="T:HandbookSchool.ViewModels.DashboardPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.DashboardPageViewModel.navigateToSchoolProfileCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToSchoolProfileCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToSchoolProfileCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToSchoolProfile"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.DashboardPageViewModel.navigateToHighSchoolHonorCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToHighSchoolHonorCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToHighSchoolHonorCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToHighSchoolHonor"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.DashboardPageViewModel.navigateToHonorStudentsCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToHonorStudentsCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToHonorStudentsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToHonorStudents"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.DashboardPageViewModel.navigateToApplicationAcademicCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToApplicationAcademicCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToApplicationAcademicCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToApplicationAcademic"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.DashboardPageViewModel.navigateToInstructionalSupportCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToInstructionalSupportCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToInstructionalSupportCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToInstructionalSupport"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.DashboardPageViewModel.navigateToCollegeCounsilCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToCollegeCounsilCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToCollegeCounsilCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToCollegeCounsil"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.DashboardPageViewModel.navigateToOrganizationalStructureCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToOrganizationalStructureCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToOrganizationalStructureCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToOrganizationalStructure"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.DashboardPageViewModel.navigateToMITuniformCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToMITuniformCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToMITuniformCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToMITuniform"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.DashboardPageViewModel.navigateToLocationCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToLocationCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToLocationCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToLocation"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.DashboardPageViewModel.navigateToAboutUSCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToAboutUSCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToAboutUSCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.DashboardPageViewModel.NavigateToAboutUS"/>.</summary>
+        </member>
+        <member name="T:HandbookSchool.ViewModels.InstructionalSupportViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.InstructionalSupportViewModel.navigateToRegistrarOfficeCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.InstructionalSupportViewModel.NavigateToRegistrarOfficeCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.InstructionalSupportViewModel.NavigateToRegistrarOfficeCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.InstructionalSupportViewModel.NavigateToRegistrarOffice"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.InstructionalSupportViewModel.navigateToLibrarySystemCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.InstructionalSupportViewModel.NavigateToLibrarySystemCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.InstructionalSupportViewModel.NavigateToLibrarySystemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.InstructionalSupportViewModel.NavigateToLibrarySystem"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.InstructionalSupportViewModel.navigateToSupportServicesCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.InstructionalSupportViewModel.NavigateToSupportServicesCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.InstructionalSupportViewModel.NavigateToSupportServicesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.InstructionalSupportViewModel.NavigateToSupportServices"/>.</summary>
+        </member>
+        <member name="T:HandbookSchool.ViewModels.SchoolProfileViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.SchoolProfileViewModel.navigateToAcademicViewsCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToAcademicViewsCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToAcademicViewsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToAcademicViews"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.SchoolProfileViewModel.navigateToEnrollmentCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToEnrollmentCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToEnrollmentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToEnrollment"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.SchoolProfileViewModel.navigateToCurricularCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToCurricularCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToCurricularCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToCurricular"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.SchoolProfileViewModel.navigateToExaminationCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToExaminationCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToExaminationCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToExamination"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.SchoolProfileViewModel.navigateToGraduationCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToGraduationCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToGraduationCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToGraduation"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.SchoolProfileViewModel.navigateToFeesAndPaymentCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToFeesAndPaymentCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToFeesAndPaymentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToFeesAndPayment"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.SchoolProfileViewModel.navigateToFeesAdjustmentCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToFeesAdjustmentCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToFeesAdjustmentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToFeesAdjustment"/>.</summary>
+        </member>
+        <member name="F:HandbookSchool.ViewModels.SchoolProfileViewModel.navigateToScholarshipCommand">
+            <summary>The backing field for <see cref="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToScholarshipCommand"/>.</summary>
+        </member>
+        <member name="P:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToScholarshipCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:HandbookSchool.ViewModels.SchoolProfileViewModel.NavigateToScholarship"/>.</summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+    </members>
+</doc>

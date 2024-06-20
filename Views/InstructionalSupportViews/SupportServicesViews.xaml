@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HandbookSchool.Views.InstructionalSupportViews.SupportServicesViews"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:vm="clr-namespace:HandbookSchool.ViewModels"
+             xmlns:models="clr-namespace:HandbookSchool.Models"
+             x:DataType="vm:InstructionalSupportViewModel"
+             Shell.NavBarIsVisible="False"
+             Title="SupportServicesViews">
+
+    <Grid>
+        <ScrollView>
+            <VerticalStackLayout>
+                <CollectionView ItemsSource="{Binding InstructionModel}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:InstructionalSupportModel">
+                            <VerticalStackLayout Spacing="10" Padding="20">
+
+                                <Border WidthRequest="100"
+                                        HeightRequest="100"
+                                        StrokeShape="RoundRectangle 30"
+                                        >
+                                    <Border.Shadow>
+                                        <Shadow Brush="DeepSkyBlue"
+                                                Offset="20, 20"
+                                                Opacity="8"/>
+                                    </Border.Shadow>
+                                    <Image Source="knowledge.png"
+                                           HeightRequest="80"
+                                           WidthRequest="70"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"/>
+                                </Border>
+                                <Border WidthRequest="190" HeightRequest="35"
+                                        BackgroundColor="Cornsilk" 
+                                        StrokeShape="RoundRectangle 10"
+                                        Stroke="gray" StrokeThickness="2"
+                                        Margin="15">
+                                    <Label Text="III. Service Support "
+                                           FontSize="19"
+                                           TextColor="Black"
+                                           FontAttributes="Bold"
+                                           FontFamily="Robot"
+                                           HorizontalOptions="Center"
+                                           />
+                                </Border>
+
+
+                                <!--<-//III SUPPORT SERVICES ->-->
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding SupportServices}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding Dental}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"                                   
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding DentalList}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding StudentOrganization}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding StudentOrganization1}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding StudentGeneralBehavior}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"                                   
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding StudentGeneralList}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding Following}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding SchoolAttire}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"                                   
+                                   LineHeight="1.5"
+                                   Text="{Binding SchoolAttireList}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"                                   
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding Following2}"/>
+
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding Notices}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="10"
+                                   Text="{Binding NoticesList1}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="10"
+                                   Text="{Binding NoticesList2}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"                                   
+                                   LineHeight="1.5"
+                                   Margin="10"
+                                   Text="{Binding NoticesList3}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding Disciplinary}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   Text="{Binding Sanctions}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="10"
+                                   Text="{Binding SanctionsList}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"                                   
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding Definitions}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding DefinitionsList}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="10"
+                                   Text="{Binding Following3}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding DefinitionsList2}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="10"
+                                   Text="{Binding Following4}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding DefinitionsList3}"/>
+
+
+
+                                <!--<-//III SUPPORT SERVICES ->-->
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding  Discipline}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"                                   
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding Purpose}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding PurposeDescription1}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding PurposeDescription2 }"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"                                   
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding PurposeDescription4}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding Penal}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding Penal2}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding Suspension}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"                                   
+                                   LineHeight="1.5"
+                                   Text="{Binding Dismissal}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding Explusion}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding OffensesPunishable}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding OffensesDescription}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OffensesList}"/>
+
+
+
+                                <!--//Serious Offenses Punishable -->
+                                <Label FontSize="16"
+                                   TextColor="Black"                                   
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding  SeriousOffenses}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding SeriousDescription}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding SeriousList}"/>
+
+                                <!--//VERY SERIOUS OFFENSES PUNISHABLE BY EXPULSION-->
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding VerySerious}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding VerySeriousDescription}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"                                   
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding VerySeriousList}"/>
+
+                                <!--SCHOOL BOARD OF DISCIPLINE-->
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding SchoolBoard}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding SchoolBoardList}"/>
+
+                                <!--JURISDICTION-->
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding Jurisdiction}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding JurisdictionList}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="15"
+                                   Text="{Binding JurisdictionList2}"/>
+
+
+                                <!--PROCEDURE FOR THE HEARING OF A CASE-->
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding Procedure}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding ProcedureDescription1 }"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding ProcedureDescription2}"/>
+
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding ProcedureDescription3}"/>
+
+                            </VerticalStackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!--<Border StrokeThickness="0"
+                x:Name="bottomBox"
+                BackgroundColor="LimeGreen"
+                Margin="-1"
+                VerticalOptions="End"
+                HeightRequest="150"
+                Padding="15"
+                StrokeShape="RoundRectangle, 30, 30, 0, 0">
+            <Border.Shadow>
+                <Shadow Brush="green"
+                        Radius="100"/>
+            </Border.Shadow>
+
+            <Image Source="mitremove.png"/>
+
+        </Border>-->
+        <ImageButton Source="{OnPlatform Android='rightarrows.png', Default='left.png'}"
+                     VerticalOptions="Start"
+                     HorizontalOptions="Start"
+                     HeightRequest="40"
+                     WidthRequest="40"
+                     Margin="15"
+                     RotationY="{OnPlatform Android=180, Default=0}"
+                     Clicked="ImageButton_Clicked">
+
+            <ImageButton.Behaviors>
+                <toolkit:IconTintColorBehavior TintColor="Black"/>
+            </ImageButton.Behaviors>
+        </ImageButton>
+    </Grid>
+</ContentPage>

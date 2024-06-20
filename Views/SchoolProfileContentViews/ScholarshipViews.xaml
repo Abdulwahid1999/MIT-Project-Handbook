@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:vm="clr-namespace:HandbookSchool.ViewModels"
+             xmlns:models="clr-namespace:HandbookSchool.Models"
+             x:DataType="vm:SchoolProfileViewModel"
+             x:Class="HandbookSchool.Views.SchoolProfileContentViews.ScholarshipViews"
+             Shell.NavBarIsVisible="False"
+             Title="ScholarshipViews">
+
+    <Grid>
+        <ScrollView>
+            <VerticalStackLayout>
+                <CollectionView ItemsSource="{Binding SchoolProfile}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:SchoolProfileModel">
+                            <VerticalStackLayout Spacing="10" Padding="20">
+
+
+                                <Border WidthRequest="100"
+                                        HeightRequest="100"
+                                        StrokeShape="RoundRectangle 30"
+                                        >
+                                    <Border.Shadow>
+                                        <Shadow Brush="DeepSkyBlue"
+                                                Offset="20, 20"
+                                                Opacity="8"/>
+                                    </Border.Shadow>
+                                    <Image Source="classmates.png"
+                                           HeightRequest="80"
+                                           WidthRequest="70"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"/>
+                                </Border>
+                                <Border WidthRequest="180" HeightRequest="35"
+                                        BackgroundColor="Cornsilk" 
+                                        StrokeShape="RoundRectangle 10"
+                                        Stroke="gray" StrokeThickness="2"
+                                        Margin="15">
+                                    <Label Text="VIII. Scholarships "
+                                           FontSize="19"
+                                           TextColor="Black"
+                                           FontAttributes="Bold"
+                                           FontFamily="Robot"
+                                           HorizontalOptions="Center"
+                                           />
+                                </Border>
+
+
+                                <!--VIII ACADEMIC PRIVILEGES AND SCHOLARSHIP PROGRAM-->
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding  AcademicPrevileges}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding AcademicDescripstion}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding AcademicList}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding AcademicList1}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding AcademicList2}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding AcademicList3}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding AcademicDescription2}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding AcademicDescription3}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding  AcademicOrderlist1}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding AcademicOrderlist2}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="20"                         
+                                   Text="{Binding AcademicListA}"/>
+                                <!--<Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding AcademicListB}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding AcademicListC}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding AcademicListD}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   Margin="6"
+                                   LineHeight="1.5"
+                                   Text="{Binding AcademicListE}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   Margin="6"
+                                   LineHeight="1.5"
+                                   Text="{Binding AcademicListF}"/>-->
+
+                                <!--//HONOR STUDENTS WITH ONE OR MORE YEARS OF RESIDENCE-->
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding  HonorStudents}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding ToQualify}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding HonorStudentsList}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding ApplicationForAcademicTitle }"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding ApplicationForAcademic}"/>
+
+                            </VerticalStackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!--<Border StrokeThickness="0"
+                x:Name="bottomBox"
+                BackgroundColor="LimeGreen"
+                Margin="-1"
+                VerticalOptions="End"
+                HeightRequest="150"
+                Padding="15"
+                StrokeShape="RoundRectangle, 30, 30, 0, 0">
+            <Border.Shadow>
+                <Shadow Brush="green"
+                        Radius="100"/>
+            </Border.Shadow>
+
+            <Image Source="mitremove.png"/>
+            
+        </Border>-->
+
+        <ImageButton Source="{OnPlatform Android='rightarrows.png', Default='left.png'}"
+                     VerticalOptions="Start"
+                     HorizontalOptions="Start"
+                     HeightRequest="40"
+                     WidthRequest="40"
+                     Margin="15"
+                     RotationY="{OnPlatform Android=180, Default=0}"
+                     Clicked="ImageButton_Clicked">
+
+            <!--<ImageButton.Behaviors>
+                <toolkit:IconTintColorBehavior TintColor="Black"/>
+            </ImageButton.Behaviors>-->
+        </ImageButton>
+    </Grid>
+</ContentPage>

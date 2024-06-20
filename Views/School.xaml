@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:vm="clr-namespace:HandbookSchool.ViewModels"
+             xmlns:models="clr-namespace:HandbookSchool.Models"
+             x:DataType="vm:SchoolProfileViewModel"
+             x:Class="HandbookSchool.Views.School"
+             Title="School"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="WhiteSmoke"
+             Shell.FlyoutBehavior="Flyout">
+
+    <ContentPage Title="Chapter 1" BackgroundColor="Red">
+
+        <ScrollView Padding="15">
+            <VerticalStackLayout Spacing="25">
+                <Image Source="education.png"
+                       HeightRequest="100"
+                       WidthRequest="100"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                <Label Text="School Profile"
+                       FontSize="20"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+
+                <CollectionView ItemsSource="{Binding SchoolProfile}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:SchoolProfileModel">
+
+                            <VerticalStackLayout Spacing="10">
+
+                                <!--ACADEMIC POLICIES-->
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   
+                                   Text="{Binding Academic}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   Text="{Binding Admission}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   VerticalTextAlignment="Start"                                
+                                   Text="{Binding DescriptionA}"/>
+
+                                <!--NEW STUDENTS-->
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   Text="{Binding NewStudents}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   Text="{Binding DescriptionB}"/>
+
+                                <!--TRANSFER-->
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   Text="{Binding Transfer}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   Text="{Binding DescriptionC}"/>
+
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.6"
+                                   Margin="8"
+                                   Text="{Binding DescriptionList}"/>
+
+                                <!--II ENROLLMENT-->
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   LineHeight="1.5"
+                                   Text="{Binding Enrollment}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   Text="{Binding Description1}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   Text="{Binding Description2}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   Text="{Binding  Description3 }"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   Text="{Binding  Description4}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="15"
+                                   Text="{Binding Description4List}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   Text="{Binding Description5}"/>
+
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   Text="{Binding Description6}"/>
+
+                                <!--III CURRICULAR AND NON-CURRICULAR ACADEMIC REQUIREMENTS -->
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   LineHeight="1.5"
+                                   Text="{Binding Curricular}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"                                  
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   Text="{Binding CurricularDescription1}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"                                  
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   Text="{Binding CurricularDescription11}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   Text="{Binding CurricularDescription12}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"                                  
+                                   LineHeight="1.5"
+                                   Margin="8"
+                                   Text="{Binding CurricularDescription13}"/>
+
+                                <Label FontSize="14"
+                                   TextColor="Black"                                  
+                                   LineHeight="1.5"
+                                   Text="{Binding CurricularDescription2}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   TextDecorations="Underline"
+                                   FontAttributes="Bold"
+                                   Margin="6"
+                                   Text="{Binding Orderedlista}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OrderedListA}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   TextDecorations="Underline"
+                                   FontAttributes="Bold"
+                                   Margin="6"
+                                   Text="{Binding OrderedListb}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OrderedListB}"/>
+
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   TextDecorations="Underline"
+                                   FontAttributes="Bold"
+                                   Margin="6"
+                                   Text="{Binding OrderedListc}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OrderedListC}"/>
+
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   TextDecorations="Underline"
+                                   FontAttributes="Bold"
+                                   Margin="6"
+                                   Text="{Binding OrderedListd}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OrderedListD}"/>
+
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   TextDecorations="Underline"
+                                   FontAttributes="Bold"
+                                   Margin="6"
+                                   Text="{Binding OrderedListe}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OrderedListE}"/>
+
+                                <!--EXAMINATIONS AND GRADING SYSTEM -->
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   LineHeight="1.5"
+                                   Text="{Binding Examination}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding ExaminationDescription}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OrderedList3A}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OrderedList3B}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OrderedList3C}"/>
+                                <!--<Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding Grade}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   LineHeight="1.5"
+                                   Text="{Binding Equivalent}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   LineHeight="1.5"
+                                   Text="{Binding Indication}"/>-->
+
+                                <Image Source="grade.png"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center"
+                                       HeightRequest="170"
+                                       WidthRequest="365"
+                                       />
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding ThreeWeeks}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OneC}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OneE}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OneA}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OneL}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OneR}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding W}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding DR}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding LastDecsription}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   FontAttributes="Bold"
+                                   Text="{Binding IncompleteGrades}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   Margin="6"
+                                   LineHeight="1.5"
+                                   Text="{Binding IncompleteDescriptions}"/>
+
+                                <!--V GRADUATION-->
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   LineHeight="1.5"
+                                   Text="{Binding Graduation}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding GraduationDescription}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding OrdereListGraduationA}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OrderedListGraduation1}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OrderedListGraduation2}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OrderedListGraduation3}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding OrdereListGraduationB}"/>
+                                <!--<Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding OrderedListGraduationa}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding OrderedListGraduationb}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding OrderedListGraduationc}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding OrderedListGraduationd}"/>-->
+
+                                <Image Source="grade1.png"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="Center"
+                                       HeightRequest="150"
+                                       WidthRequest="400"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding OrderedListAverage}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding Payments}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding Installment}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding Penalty}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding Payment}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding PaymentList}"/>
+
+
+                                <!--VII FEE ADJUSTMENT PRIVILEGES -->
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   LineHeight="1.5"
+                                   Text="{Binding FeeAdjustment}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="12"
+                                   Text="{Binding FeeAdjustmentDescription}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="12"
+                                   Text="{Binding FeeAdjustmentList}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding FamilyRelations}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding FamilyRelationsDescription}"/>
+
+
+                                <!--VIII ACADEMIC PRIVILEGES AND SCHOLARSHIP PROGRAM-->
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding  AcademicPrevileges}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding AcademicDescripstion}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding AcademicList}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding AcademicList1}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding AcademicList2}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding AcademicList3}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding AcademicDescription2}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding AcademicDescription3}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding  AcademicOrderlist1}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding AcademicOrderlist2}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="20"                         
+                                   Text="{Binding AcademicListA}"/>
+                                <!--<Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding AcademicListB}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding AcademicListC}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding AcademicListD}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   Margin="6"
+                                   LineHeight="1.5"
+                                   Text="{Binding AcademicListE}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   Margin="6"
+                                   LineHeight="1.5"
+                                   Text="{Binding AcademicListF}"/>-->
+
+                                <!--//HONOR STUDENTS WITH ONE OR MORE YEARS OF RESIDENCE-->
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding  HonorStudents}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding ToQualify}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding HonorStudentsList}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding ApplicationForAcademicTitle }"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding ApplicationForAcademic}"/>
+
+                            </VerticalStackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!--<Border StrokeThickness="0"
+                x:Name="bottomBox"
+                BackgroundColor="LimeGreen"
+                Margin="-1"
+                VerticalOptions="End"
+                HeightRequest="150"
+                Padding="15"
+                StrokeShape="RoundRectangle, 30, 30, 0, 0">
+            <Border.Shadow>
+                <Shadow Brush="green"
+                        Radius="100"/>
+            </Border.Shadow>
+
+            <Image Source="mitremove.png"/>
+            
+        </Border>-->
+
+
+    </ContentPage>
+
+    <ContentPage Title="Chapter 2" BackgroundColor="Gray">
+
+    </ContentPage>
+
+    <ContentPage Title="Chapter 3" BackgroundColor="Pink">
+
+    </ContentPage>
+</TabbedPage>

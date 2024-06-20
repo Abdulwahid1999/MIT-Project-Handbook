@@ -1,0 +1,178 @@
+is_global = true
+build_property.TargetFramework = net6.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HandbookSchool
+build_property.ProjectDir = C:\Users\Dayet\Desktop\old folder\HandbookSchool\HandbookSchool\
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/AboutUsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.AboutUsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AboutUsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AboutUsPage.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/ApplicationAcademicPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.ApplicationAcademicPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ApplicationAcademicPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ApplicationAcademicPage.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/CollegeCounsilPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.CollegeCounsilPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CollegeCounsilPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CollegeCounsilPage.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/DashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.DashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DashboardPage.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/HighSchoolHonorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.HighSchoolHonorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HighSchoolHonorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HighSchoolHonorPage.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/HonorStudentsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.HonorStudentsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HonorStudentsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HonorStudentsPage.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/InstructionalSupportPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.InstructionalSupportPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\InstructionalSupportPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\InstructionalSupportPage.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/InstructionalSupportViews/LibrarySystemViews.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.InstructionalSupportViews.LibrarySystemViews.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\InstructionalSupportViews\LibrarySystemViews.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\InstructionalSupportViews\LibrarySystemViews.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/InstructionalSupportViews/RegistrarOfficeViews.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.InstructionalSupportViews.RegistrarOfficeViews.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\InstructionalSupportViews\RegistrarOfficeViews.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\InstructionalSupportViews\RegistrarOfficeViews.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/InstructionalSupportViews/SupportServicesViews.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.InstructionalSupportViews.SupportServicesViews.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\InstructionalSupportViews\SupportServicesViews.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\InstructionalSupportViews\SupportServicesViews.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/LocationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.LocationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LocationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LocationPage.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/MITuniform.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.MITuniform.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MITuniform.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MITuniform.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/OrganizationalStructurePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.OrganizationalStructurePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\OrganizationalStructurePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\OrganizationalStructurePage.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/School.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.School.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\School.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\School.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/SchoolProfileContentViews/AcademicViews.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.SchoolProfileContentViews.AcademicViews.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SchoolProfileContentViews\AcademicViews.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SchoolProfileContentViews\AcademicViews.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/SchoolProfileContentViews/CurricularViews.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.SchoolProfileContentViews.CurricularViews.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SchoolProfileContentViews\CurricularViews.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SchoolProfileContentViews\CurricularViews.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/SchoolProfileContentViews/Enrollment.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.SchoolProfileContentViews.Enrollment.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SchoolProfileContentViews\Enrollment.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SchoolProfileContentViews\Enrollment.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/SchoolProfileContentViews/ExaminationViews.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.SchoolProfileContentViews.ExaminationViews.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SchoolProfileContentViews\ExaminationViews.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SchoolProfileContentViews\ExaminationViews.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/SchoolProfileContentViews/FeesAdjustmentViews.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.SchoolProfileContentViews.FeesAdjustmentViews.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SchoolProfileContentViews\FeesAdjustmentViews.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SchoolProfileContentViews\FeesAdjustmentViews.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/SchoolProfileContentViews/FeesViews.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.SchoolProfileContentViews.FeesViews.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SchoolProfileContentViews\FeesViews.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SchoolProfileContentViews\FeesViews.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/SchoolProfileContentViews/GraduationViews.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.SchoolProfileContentViews.GraduationViews.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SchoolProfileContentViews\GraduationViews.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SchoolProfileContentViews\GraduationViews.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/SchoolProfileContentViews/ScholarshipViews.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.SchoolProfileContentViews.ScholarshipViews.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SchoolProfileContentViews\ScholarshipViews.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SchoolProfileContentViews\ScholarshipViews.xaml
+
+[C:/Users/Dayet/Desktop/old folder/HandbookSchool/HandbookSchool/Views/SchoolProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HandbookSchool.Views.SchoolProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SchoolProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SchoolProfilePage.xaml

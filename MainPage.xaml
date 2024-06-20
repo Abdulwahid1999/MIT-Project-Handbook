@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HandbookSchool.MainPage"
+             BackgroundColor="WhiteSmoke">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="10" Padding="10">
+            <Border 
+                    StrokeShape="RoundRectangle 10"
+                    StrokeThickness="0"
+                    BackgroundColor="LimeGreen"
+                    VerticalOptions="Start" 
+                    Padding="14">
+                <Grid ColumnDefinitions="*, 150"
+                      RowDefinitions="*, Auto">
+                    <VerticalStackLayout Grid.Row="0"
+                                         Grid.Column="0"
+                                         Spacing="10">
+                        <Label Text="MIT.com"
+                               FontSize="25"
+                               FontAttributes="Bold"
+                               FontFamily="Robot"
+                               TextColor="Black"
+                               VerticalOptions="Center"/>
+                        <Label Text="Your bright future start here!"
+                               TextColor="Black"/>
+
+                    </VerticalStackLayout>
+                    <Button 
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Text="Get Started"
+                            FontSize="Default"
+                            TextColor="Black"
+                            BackgroundColor="White"                    
+                            FontAttributes="Bold"
+                            CornerRadius="5"
+                            HorizontalOptions="Center"
+                            Padding="15, 0"/>
+                    <Image Grid.RowSpan="2"
+                           Grid.Column="1"
+                           Source="mitremove.png"
+                           HeightRequest="130"
+                           WidthRequest="130"/>
+                </Grid>
+            </Border>
+
+            <!--<Border StrokeShape="RoundRectangle 22"
+                    StrokeThickness="2"
+                    Stroke="Black">
+                <Label Text="Search"
+                       TextColor="Black"    
+                       FontSize="15"
+                       Padding="10, 14"/>
+            </Border>
+
+            <BoxView HeightRequest="15"
+                     Color="Transparent"/>
+
+            <Grid ColumnDefinitions="*, *">
+                <Label Grid.Column="0" 
+                       TextColor="Black"
+                       Text="Popular Items"
+                       VerticalOptions="End"
+                       FontSize="15"
+                       FontAttributes="None"/>
+                <Label Grid.Column="1" 
+                       TextColor="Black"
+                       Text="View all"
+                       HorizontalOptions="End"
+                       VerticalOptions="End"
+                       TextDecorations="Underline"/>
+            </Grid>-->
+
+        
+
+
+            <!--SCHOOL PROFILE-->
+            <!--
+
+            <Border StrokeShape="RoundRectangle 10"
+                    StrokeThickness="0"
+                    BackgroundColor="DarkGray"
+                    VerticalOptions="Start" 
+                    Padding="10">
+                <Grid ColumnDefinitions="*, 150"
+                      RowDefinitions="*, Auto">
+                    <VerticalStackLayout Grid.Row="0"
+                                         Grid.Column="0"
+                                         Spacing="10">
+                        <Label Text="School Profile"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               FontFamily="Robot"
+                               TextColor="Black"
+                               VerticalOptions="Center"/>
+                        <Label Text="Mahardika Institute of Technology"
+                               TextColor="Black"
+                               FontSize="Default"
+                               Margin="3"/>
+
+                    </VerticalStackLayout>
+                    <Button                        
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Text="Check Out"
+                            TextColor="White"
+                            FontSize="13"
+                            BackgroundColor="Black"
+                            FontAttributes="Bold"
+                            CornerRadius="6"
+                            HorizontalOptions="Center"
+                            Padding="20, 5"/>
+                    <Image Grid.RowSpan="2"
+                           Grid.Column="1"
+                           Source="education.png"
+                           HeightRequest="80"
+                           WidthRequest="80"/>
+                </Grid>
+            </Border>
+
+            -->
+            <!--High School Honor Student and Orphans-->
+            <!--
+          
+            <Border StrokeShape="RoundRectangle 10"
+                    StrokeThickness="0"
+                    BackgroundColor="DarkGray"
+                    VerticalOptions="Start" 
+                    Padding="10">
+                <Grid ColumnDefinitions="*, 150"
+                      RowDefinitions="*, Auto">
+                    <VerticalStackLayout Grid.Row="0"
+                                         Grid.Column="0"
+                                         Spacing="10">
+                        <Label Text="High School Honor Student and Orphans"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               FontFamily="Robot"
+                               TextColor="Black"
+                               VerticalOptions="Center"/>
+                        <Label Text="Mahardika Institute of Technology"
+                               TextColor="Black"
+                               FontSize="Default"
+                               Margin="3"/>
+
+                    </VerticalStackLayout>
+                    <Button                         
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Text="Check Out"
+                            TextColor="White"
+                            FontSize="13"
+                            BackgroundColor="Black"
+                            FontAttributes="Bold"
+                            CornerRadius="6"
+                            HorizontalOptions="Center"
+                            Padding="20, 5"/>
+                    <Image Grid.RowSpan="2"
+                           Grid.Column="1"
+                           Source="knowledge2.png"
+                           HeightRequest="90"
+                           WidthRequest="90"/>
+                </Grid>
+            </Border>
+
+            -->
+            <!--HONOR STUDENTS WITH ONE MORE YEAR OF RESIDENCE-->
+            <!--
+            
+            <Border StrokeShape="RoundRectangle 10"
+                    StrokeThickness="0"
+                    BackgroundColor="DarkGray"
+                    VerticalOptions="Start" 
+                    Padding="10">
+                <Grid ColumnDefinitions="*, 150"
+                      RowDefinitions="*, Auto">
+                    <VerticalStackLayout Grid.Row="0"
+                                         Grid.Column="0"
+                                         Spacing="10">
+                        <Label Text="Honor Students with one more year of Residence"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               FontFamily="Robot"
+                               TextColor="Black"
+                               VerticalOptions="Center"/>
+                        <Label Text="Mahardika Institute of Technology"
+                               TextColor="Black"
+                               FontSize="Default"
+                               Margin="3"/>
+
+                    </VerticalStackLayout>
+                    <Button                         
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Text="Check Out"
+                            TextColor="White"
+                            FontSize="13"
+                            BackgroundColor="Black"
+                            FontAttributes="Bold"
+                            CornerRadius="6"
+                            HorizontalOptions="Center"
+                            Padding="20, 5"/>
+
+                    <Image Grid.RowSpan="2"
+                           Grid.Column="1"
+                           Source="children.png"
+                           HeightRequest="80"
+                           WidthRequest="80"/>
+                </Grid>
+            </Border>
+
+      
+            -->
+            <!--APPLICATIONS FOR ACADEMIC PRIVILEGES-->
+            <!--
+     
+
+            <Border StrokeShape="RoundRectangle 10"
+                    StrokeThickness="0"
+                    BackgroundColor="DarkGray"
+                    VerticalOptions="Start" 
+                    Padding="10">
+                <Grid ColumnDefinitions="*, 150"
+                      RowDefinitions="*, Auto">
+                    <VerticalStackLayout Grid.Row="0"
+                                         Grid.Column="0"
+                                         Spacing="10">
+                        <Label Text="Applications for Academic Privileges"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               FontFamily="Robot"
+                               TextColor="Black"
+                               VerticalOptions="Center"/>
+                        <Label Text="Mahardika Institute of Technology"
+                               TextColor="Black"
+                               FontSize="Default"
+                               Margin="3"/>
+
+                    </VerticalStackLayout>
+                    <Button                          
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Text="Check Out"
+                            TextColor="White"
+                            FontSize="13"
+                            BackgroundColor="Black"
+                            FontAttributes="Bold"
+                            CornerRadius="6"
+                            HorizontalOptions="Center"
+                            Padding="20, 5"/>
+                    <Image Grid.RowSpan="2"
+                           Grid.Column="1"
+                           Source="mail.png"
+                           HeightRequest="80"
+                           WidthRequest="80"/>
+                </Grid>
+            </Border>
+
+            -->
+            <!--INTSTRUCTIONAL SUPPORT-->
+            <!--
+
+
+            <Border StrokeShape="RoundRectangle 10"
+                    StrokeThickness="0"
+                    BackgroundColor="DarkGray"
+                    VerticalOptions="Start" 
+                    Padding="10">
+                <Grid ColumnDefinitions="*, 150"
+                      RowDefinitions="*, Auto">
+                    <VerticalStackLayout Grid.Row="0"
+                                         Grid.Column="0"
+                                         Spacing="10">
+                        <Label Text="Instructional Support"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               FontFamily="Robot"
+                               TextColor="Black"
+                               VerticalOptions="Center"/>
+                        <Label Text="Mahardika Institute of Technology"
+                               TextColor="Black"
+                               FontSize="Default"
+                               Margin="3"/>
+
+                    </VerticalStackLayout>
+                    <Button                      
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Text="Check Out"
+                            TextColor="White"
+                            FontSize="13"
+                            BackgroundColor="Black"
+                            FontAttributes="Bold"
+                            CornerRadius="6"
+                            HorizontalOptions="Center"
+                            Padding="20, 5"/>
+                    <Image Grid.RowSpan="2"
+                           Grid.Column="1"
+                           Source="instructor.png"
+                           HeightRequest="100"
+                           WidthRequest="100"/>
+                </Grid>
+            </Border>
+
+  
+            -->
+            <!--COLLEGE COUNCIL / SCHOOL OFFICIALS-->
+            <!--
+            
+            <Border StrokeShape="RoundRectangle 10"
+                    StrokeThickness="0"
+                    BackgroundColor="DarkGray"
+                    VerticalOptions="Start" 
+                    Padding="10">
+                <Grid ColumnDefinitions="*, 150"
+                      RowDefinitions="*, Auto">
+                    <VerticalStackLayout Grid.Row="0"
+                                         Grid.Column="0"
+                                         Spacing="10">
+                        <Label Text="College Council"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               FontFamily="Robot"
+                               TextColor="Black"
+                               VerticalOptions="Center"/>
+                        <Label Text="Mahardika Institute of Technology"
+                               TextColor="Black"
+                               FontSize="Default"
+                               Margin="3"/>
+
+                    </VerticalStackLayout>
+                    <Button                          
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Text="Check Out"
+                            TextColor="White"
+                            FontSize="13"
+                            BackgroundColor="Black"
+                            FontAttributes="Bold"
+                            CornerRadius="6"
+                            HorizontalOptions="Center"
+                            Padding="20, 5"/>
+                    <Image Grid.RowSpan="2"
+                           Grid.Column="1"
+                           Source="teacher2.png"
+                           HeightRequest="80"
+                           WidthRequest="80"/>
+                </Grid>
+            </Border>
+
+            
+            -->
+            <!--ORGANIZATIONAL STRUCTURE-->
+            <!--
+            
+            <Border StrokeShape="RoundRectangle 10"
+                    StrokeThickness="0"
+                    BackgroundColor="DarkGray"
+                    VerticalOptions="Start" 
+                    Padding="10">
+                <Grid ColumnDefinitions="*, 150"
+                      RowDefinitions="*, Auto">
+                    <VerticalStackLayout Grid.Row="0"
+                                         Grid.Column="0"
+                                         Spacing="10">
+                        <Label Text="Organizational Structure"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               FontFamily="Robot"
+                               TextColor="Black"
+                               VerticalOptions="Center"/>
+                        <Label Text="Mahardika Institute of Technology"
+                               TextColor="Black"
+                               FontSize="Default"
+                               Margin="3"/>
+
+                    </VerticalStackLayout>
+                    <Button                          
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Text="Check Out"
+                            TextColor="White"
+                            FontSize="13"
+                            BackgroundColor="Black"
+                            FontAttributes="Bold"
+                            CornerRadius="6"
+                            HorizontalOptions="Center"
+                            Padding="20, 5"/>
+                    <Image Grid.RowSpan="2"
+                           Grid.Column="1"
+                           Source="conference.png"
+                           HeightRequest="80"
+                           WidthRequest="80"/>
+                </Grid>
+            </Border>
+
+
+            
+            -->
+            <!--MIT UNIFORM-->
+            <!--
+            
+            <Border StrokeShape="RoundRectangle 10"
+                    StrokeThickness="0"
+                    BackgroundColor="DarkGray"
+                    VerticalOptions="Start" 
+                    Padding="10">
+                <Grid ColumnDefinitions="*, 150"
+                      RowDefinitions="*, Auto">
+                    <VerticalStackLayout Grid.Row="0"
+                                         Grid.Column="0"
+                                         Spacing="10">
+                        <Label Text="MIT Uniform"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               FontFamily="Robot"
+                               TextColor="Black"
+                               VerticalOptions="Center"/>
+                        <Label Text="Mahardika Institute of Technology"
+                               TextColor="Black"
+                               FontSize="Default"
+                               Margin="3"/>
+
+                    </VerticalStackLayout>
+                    <Button                          
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Text="Check Out"
+                            TextColor="White"
+                            FontSize="13"
+                            BackgroundColor="Black"
+                            FontAttributes="Bold"
+                            CornerRadius="6"
+                            HorizontalOptions="Center"
+                            Padding="20, 5"/>
+
+                    <Image Grid.RowSpan="2"
+                           Grid.Column="1"
+                           Source="uniform1.png"
+                           HeightRequest="80"
+                           WidthRequest="80"/>
+                </Grid>
+            </Border>
+
+     
+            -->
+            <!--LOCATION-->
+            <!--
+  
+            <Border StrokeShape="RoundRectangle 10"
+                    StrokeThickness="0"
+                    BackgroundColor="DarkGray"
+                    VerticalOptions="Start" 
+                    Padding="10">
+                <Grid ColumnDefinitions="*, 150"
+                      RowDefinitions="*, Auto">
+                    <VerticalStackLayout Grid.Row="0"
+                                         Grid.Column="0"
+                                         Spacing="10">
+                        <Label Text="Location"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               FontFamily="Robot"
+                               TextColor="Black"
+                               VerticalOptions="Center"/>
+                        <Label Text="Mahardika Institute of Technology"
+                               TextColor="Black"
+                               FontSize="Default"
+                               Margin="3"/>
+
+                    </VerticalStackLayout>
+                    <Button                        
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Text="Check Out"
+                            TextColor="White"
+                            FontSize="13"
+                            BackgroundColor="Black"
+                            FontAttributes="Bold"
+                            CornerRadius="6"
+                            HorizontalOptions="Center"
+                            Padding="20, 5"/>
+
+                    <Image Grid.RowSpan="2"
+                           Grid.Column="1"
+                           Source="globe.png"
+                           HeightRequest="90"
+                           WidthRequest="90"/>
+                </Grid>
+            </Border>
+
+
+   
+            -->
+            <!--ABOUT US-->
+            <!--
+
+            <Border StrokeShape="RoundRectangle 10"
+                    StrokeThickness="0"
+                    BackgroundColor="DarkGray"
+                    VerticalOptions="Start" 
+                    Padding="10">
+                <Grid ColumnDefinitions="*, 150"
+                      RowDefinitions="*, Auto">
+                    <VerticalStackLayout Grid.Row="0"
+                                         Grid.Column="0"
+                                         Spacing="10">
+                        <Label Text="About Us"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               FontFamily="Robot"
+                               TextColor="Black"
+                               VerticalOptions="Center"/>
+                        <Label Text="Mahardika Institute of Technology"
+                               TextColor="Black"
+                               FontSize="Default"
+                               Margin="3"/>
+
+                    </VerticalStackLayout>
+                    <Button                        
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Text="Check Out"
+                            TextColor="White"
+                            FontSize="13"
+                            BackgroundColor="Black"
+                            FontAttributes="Bold"
+                            CornerRadius="6"
+                            HorizontalOptions="Center"
+                            Padding="20, 5"/>
+                    <Image Grid.RowSpan="2"
+                           Grid.Column="1"
+                           Source="Student.png"
+                           HeightRequest="90"
+                           WidthRequest="90"/>
+                </Grid>
+            </Border>-->
+
+
+
+
+            <!--FlexLayout BindableLayout.ItemsSource="{Binding mitcontents}" Wrap="Wrap">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate x:DataType="models:Mitcontent">
+                        <Border FlexLayout.Basis="50%"
+                                StrokeShape="RoundRectangle 10"
+                                StrokeThickness="0"
+                                BackgroundColor="Goldenrod"
+                                Padding="0"
+                                Margin="2">
+
+                            <Grid RowDefinitions="150, Auto, Auto, Auto"
+                                  RowSpacing="5">
+                                <Image Grid.Row="0"
+                                       Source="{Binding Image}"
+                                       WidthRequest="250"
+                                       HeightRequest="350"
+                                       VerticalOptions="StartAndExpand"
+                                       HorizontalOptions="CenterAndExpand"/>
+s
+                                <VerticalStackLayout
+                                    Grid.Row="1"
+                                    Spacing="10"
+                                    Margin="0, 50, 0, 0">
+                                    <Label Text="{Binding Name}" 
+                                           FontSize="Default"
+                                           TextColor="Black"/>
+                                    <Label Text="{Binding Description}"
+                                           FontSize="Default"
+                                           TextColor="Black"/>
+                                </VerticalStackLayout>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+
+            </FlexLayout>-->
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

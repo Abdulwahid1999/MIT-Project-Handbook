@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:HandbookSchool.ViewModels"
+             xmlns:models="clr-namespace:HandbookSchool.Models"
+             x:DataType="vm:SchoolProfileViewModel"
+             x:Class="HandbookSchool.Views.SchoolProfileContentViews.FeesAdjustmentViews"
+             Shell.NavBarIsVisible="False"
+             Title="FeesAdjustmentViews">
+
+    <Grid>
+        <ScrollView>
+            <VerticalStackLayout>
+                <CollectionView ItemsSource="{Binding SchoolProfile}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:SchoolProfileModel">
+                            <VerticalStackLayout Spacing="10" Padding="20">
+
+
+                                <Border WidthRequest="100"
+                                        HeightRequest="100"
+                                        StrokeShape="RoundRectangle 30"
+                                        >
+                                    <Border.Shadow>
+                                        <Shadow Brush="DeepSkyBlue"
+                                                Offset="20, 20"
+                                                Opacity="8"/>
+                                    </Border.Shadow>
+                                    <Image Source="settings.png"
+                                           HeightRequest="80"
+                                           WidthRequest="70"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"/>
+                                </Border>
+                                <Border WidthRequest="195" HeightRequest="35"
+                                        BackgroundColor="Cornsilk" 
+                                        StrokeShape="RoundRectangle 10"
+                                        Stroke="gray" StrokeThickness="2"
+                                        Margin="15">
+                                    <Label Text="VII. Fees adjustment "
+                                           FontSize="19"
+                                           TextColor="Black"
+                                           FontAttributes="Bold"
+                                           FontFamily="Robot"
+                                           HorizontalOptions="Center"
+                                           />
+                                </Border>
+                                <!--VII FEE ADJUSTMENT PRIVILEGES -->
+                                <!--<Label FontSize="14"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   LineHeight="1.5"
+                                   Text="{Binding FeeAdjustment}"/>-->
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding FeeAdjustmentDescription}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+
+                                   Text="{Binding FeeAdjustmentList}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding FamilyRelations}"/>
+                                <Label FontSize="16"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding FamilyRelationsDescription}"/>
+                                
+                            </VerticalStackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!--<Border StrokeThickness="0"
+                x:Name="bottomBox"
+                BackgroundColor="LimeGreen"
+                Margin="-1"
+                VerticalOptions="End"
+                HeightRequest="150"
+                Padding="15"
+                StrokeShape="RoundRectangle, 30, 30, 0, 0">
+            <Border.Shadow>
+                <Shadow Brush="green"
+                        Radius="100"/>
+            </Border.Shadow>
+
+            <Image Source="mitremove.png"/>
+            
+        </Border>-->
+
+        <ImageButton Source="{OnPlatform Android='rightarrows.png', Default='left.png'}"
+                     VerticalOptions="Start"
+                     HorizontalOptions="Start"
+                     HeightRequest="40"
+                     WidthRequest="40"
+                     Margin="15"
+                     RotationY="{OnPlatform Android=180, Default=0}"
+                     Clicked="ImageButton_Clicked">
+
+            <!--<ImageButton.Behaviors>
+                <toolkit:IconTintColorBehavior TintColor="Black"/>
+            </ImageButton.Behaviors>-->
+        </ImageButton>
+    </Grid>
+</ContentPage>

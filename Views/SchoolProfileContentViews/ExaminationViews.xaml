@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:HandbookSchool.ViewModels"
+             xmlns:models="clr-namespace:HandbookSchool.Models"
+             x:DataType="vm:SchoolProfileViewModel"
+             x:Class="HandbookSchool.Views.SchoolProfileContentViews.ExaminationViews"
+             Shell.NavBarIsVisible="False"
+             Title="ExaminationViews">
+
+    <Grid>
+        <ScrollView>
+            <VerticalStackLayout>
+                <CollectionView ItemsSource="{Binding SchoolProfile}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:SchoolProfileModel">
+                            <VerticalStackLayout Spacing="10" Padding="20">
+
+                                <Border WidthRequest="100"
+                                        HeightRequest="100"
+                                        StrokeShape="RoundRectangle 30"
+                                        >
+                                    <Border.Shadow>
+                                        <Shadow Brush="DeepSkyBlue"
+                                                Offset="20, 20"
+                                                Opacity="8"/>
+                                    </Border.Shadow>
+                                    <Image Source="test.png"
+                                           HeightRequest="80"
+                                           WidthRequest="70"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"/>
+                                </Border>
+                                <Border WidthRequest="257" HeightRequest="36" BackgroundColor="Cornsilk" StrokeShape="RoundRectangle 10" Stroke="gray" StrokeThickness="2" Margin="15">
+                                    <Label Text= " IV. Examination and Grading System"
+                                           FontSize="19"
+                                           TextColor="Black"
+                                           FontAttributes="Bold"
+                                           FontFamily="Robot"
+                                           HorizontalOptions="Center"
+                                           />
+                                </Border>
+
+                                <!--IV EXAMINATIONS AND GRADING SYSTEM -->
+                                <!--<Label FontSize="14"
+                                   TextColor="Black"s
+                                   FontAttributes="Bold"
+                                   LineHeight="1.5"
+                                   Text="{Binding Examination}"/>-->
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding ExaminationDescription}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OrderedList3A}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OrderedList3B}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OrderedList3C}"/>
+                                <!--<Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   FontAttributes="Bold"
+                                   Text="{Binding Grade}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   LineHeight="1.5"
+                                   Text="{Binding Equivalent}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   LineHeight="1.5"
+                                   Text="{Binding Indication}"/>-->
+
+                                <Image Source="grade.png"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center"
+                                       HeightRequest="170"
+                                       WidthRequest="365"
+                                       />
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding ThreeWeeks}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OneC}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OneE}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OneA}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OneL}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding OneR}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding W}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   Text="{Binding DR}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Text="{Binding LastDecsription}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   LineHeight="1.5"
+                                   Margin="6"
+                                   FontAttributes="Bold"
+                                   Text="{Binding IncompleteGrades}"/>
+                                <Label FontSize="14"
+                                   TextColor="Black"
+                                   Margin="6"
+                                   LineHeight="1.5"
+                                   Text="{Binding IncompleteDescriptions}"/>
+
+                            </VerticalStackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!--<Border StrokeThickness="0"
+                x:Name="bottomBox"
+                BackgroundColor="LimeGreen"
+                Margin="-1"
+                VerticalOptions="End"
+                HeightRequest="150"
+                Padding="15"
+                StrokeShape="RoundRectangle, 30, 30, 0, 0">
+            <Border.Shadow>
+                <Shadow Brush="green"
+                        Radius="100"/>
+            </Border.Shadow>
+
+            <Image Source="mitremove.png"/>
+            
+        </Border>-->
+
+        <ImageButton Source="{OnPlatform Android='rightarrows.png', Default='left.png'}"
+                     VerticalOptions="Start"
+                     HorizontalOptions="Start"
+                     HeightRequest="40"
+                     WidthRequest="40"
+                     Margin="15"
+                     RotationY="{OnPlatform Android=180, Default=0}"
+                     Clicked="ImageButton_Clicked">
+
+            <!--<ImageButton.Behaviors>
+                <toolkit:IconTintColorBehavior TintColor="Black"/>
+            </ImageButton.Behaviors>-->
+        </ImageButton>
+    </Grid>
+</ContentPage>

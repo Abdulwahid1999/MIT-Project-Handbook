@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HandbookSchool.Views.LocationPage"
+             Title="LocationPage">
+    <Grid>
+        <ScrollView>
+            <VerticalStackLayout Spacing="10" Padding="20">
+
+                <Border WidthRequest="100"
+                        HeightRequest="100"
+                        StrokeShape="RoundRectangle 30">
+                    <Border.Shadow>
+                        <Shadow Brush="MediumVioletRed"
+                                Offset="20, 20"
+                                Opacity="8"/>
+                    </Border.Shadow>
+                    <Image Source="globe.png"
+                           HeightRequest="80"
+                           WidthRequest="70"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                </Border>
+
+                <Border WidthRequest="120" HeightRequest="35"
+                        BackgroundColor="Cornsilk"
+                        StrokeShape="RoundRectangle 10"
+                        Stroke="gray" StrokeThickness="2"
+                        Margin="15">
+                    <Label Text="CAMPUSES"
+                           FontSize="19"
+                           TextColor="Black"
+                           FontAttributes="Bold"
+                           FontFamily="Robot"
+                           HorizontalOptions="Center"/>
+                </Border>
+
+                <!--LOCATION PAGE-->
+                <Label
+                    Text="Main Campus"
+                    TextColor="Black"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    FontSize="23"
+                    FontAttributes="Bold"/>
+                <Image Source="mitmap2.png"/>
+                <Image Source="mitschool.jpg"/>
+
+                <Label
+                    Text="Ilmoh Street Bongao Tawi-Tawi ."
+                    TextColor="Black"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"
+                    FontSize="20"/>
+
+                <Label
+                    Text="SENIOR HIGH SCHOOL CAMPUS"
+                    TextColor="Black"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    FontSize="23"
+                    FontAttributes="Bold"/>
+                <Image Source="mitshs.jpg"/>
+                <Image Source="shs.png"/>
+                <Label
+                    Text="PAG ASA BONGAO TAWI-TAWI ."
+                    TextColor="Black"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"
+                    FontSize="20"/>
+
+                <Label
+                    Text="KASANYANGAN CAMPUS"
+                    TextColor="Black"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    FontSize="23"
+                    FontAttributes="Bold"/>
+                <Image Source="mitsanyangan.jpg"/>
+                <Image Source="mitkasanyangan.jpg"/>
+                
+                <Label
+                    Text="KASANYANGAN BONGAO TAWI-TAWI"
+                    TextColor="Black"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"
+                    FontSize="20"/>
+
+                <Label
+                    Text="ELEMENTARY AND JUNIOR HIGH SCHOOL CAMPUS"
+                    TextColor="Black"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    FontSize="23"
+                    FontAttributes="Bold"/>
+                <Image Source="mitjhs.jpg"/>
+                <Image Source="juniorhigh.jpg"/>
+
+                <Label Text="IPHO BONGAO TAWI-TAWI"
+                       TextColor="Black"
+                       VerticalOptions="Center"
+                       FontSize="20"/>
+           
+
+            </VerticalStackLayout>
+
+        </ScrollView>
+
+    </Grid>
+
+</ContentPage>
